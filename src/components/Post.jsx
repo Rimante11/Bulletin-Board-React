@@ -6,6 +6,7 @@ const Post = ({question, answer, liked, isLiked, index}) => {
         isLiked(index)
     }
 
+    
     //bygger upp min post
     return (
         <div className="myPost">
