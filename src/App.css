@@ -66,6 +66,7 @@ h1 {
   border: 2px solid rgb(175, 175, 105);
 }
 
+
 .likeBtn {
   font-family: 'Courier New', Courier, monospace;
   background-color: orange;
@@ -73,7 +74,6 @@ h1 {
   border: none;
   padding: 5px 10px;
   color: #282c34;
-
   display: flex;
   align-items: center;
   justify-content: center;

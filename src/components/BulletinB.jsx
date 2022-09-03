@@ -26,9 +26,11 @@ const BulletinB = () => {
     ]);
 
     const isLiked = (id) => {
+
         let allMyPosts = [...myPost];
         allMyPosts[id].liked = true;
         setMyPost([...allMyPosts]);
+        
     }
 
     return ( //Returnerar my bulleting board
